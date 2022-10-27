@@ -1,7 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<testsuite name="com.aor.numbers.ListFiltererTest" tests="1" skipped="0" failures="0" errors="0" timestamp="2022-10-22T12:01:35" hostname="uhuhOOOOOOOOH.lan" time="0.183">
-  <properties/>
-  <testcase name="filter()" classname="com.aor.numbers.ListFiltererTest" time="0.183"/>
-  <system-out><![CDATA[]]></system-out>
-  <system-err><![CDATA[]]></system-err>
-</testsuite>

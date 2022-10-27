@@ -25,4 +25,15 @@ public class ListSorterTest {
 
         Assertions.assertEquals(expected, sorted);
     }
+
+    @Test
+    public void sort2() {
+        List<Integer> expected = Arrays.asList(-3, 0, 1, 2, 2);
+        List<Integer> test_list = Arrays.asList(1, 2, 2, -3, 0);
+
+        ListSorter sorter = new ListSorter();
+        List<Integer> sorted = sorter.sort(test_list);
+
+        Assertions.assertEquals(expected, sorted);
+    }
 }

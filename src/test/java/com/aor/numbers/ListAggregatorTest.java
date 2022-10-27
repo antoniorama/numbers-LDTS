@@ -27,6 +27,15 @@ public class ListAggregatorTest {
     }
 
     @Test
+    public void sum2() {
+        ListAggregator aggregator = new ListAggregator();
+        List<Integer> test_list = Arrays.asList(1,-1,0);
+        int sum = aggregator.sum(test_list);
+
+        Assertions.assertEquals(0, sum);
+    }
+
+    @Test
     public void max() {
         ListAggregator aggregator = new ListAggregator();
         int max = aggregator.max(list);
@@ -42,6 +51,15 @@ public class ListAggregatorTest {
         int max = aggregator.max(test_list);
 
         Assertions.assertEquals(-1, max);
+    }
+
+    @Test
+    public void max2() {
+        ListAggregator aggregator = new ListAggregator();
+        List<Integer> test_list = Arrays.asList(1, 2, 2, 5, 5);
+        int max = aggregator.max(test_list);
+
+        Assertions.assertEquals(5, max);
     }
 
 
